@@ -1,16 +1,17 @@
-#include "Report.h"
-#include <iostream>
+#ifndef REPORT_H
+#define REPORT_H
 
-Report::Report() {}
+#include <string>
+#include "AttendanceManager.h"
 
-void Report::generateDailyReport(std::string date) {
-    std::cout << "Generating daily report for: " << date << std::endl;
-}
+class Report {
+public:
+    Report();
 
-void Report::generateMonthlyReport(std::string month) {
-    std::cout << "Generating monthly report for: " << month << std::endl;
-}
+    void generateDailyReport(std::string date);
+    void generateMonthlyReport(std::string month);
 
-void Report::displayStudentReport(std::string studentID) {
-    std::cout << "Displaying report for student: " << studentID << std::endl;
-}
+    void displayStudentReport(std::string studentID);
+};
+
+#endif
