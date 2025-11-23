@@ -1,0 +1,7 @@
+user_id,username,password,role
+1,admin,admin123,Admin
+2,teacher101,teach101,Teacher
+3,teacher102,teach122,Student
+4,23241,stud123,Student
+5,23242,stud124,Student
+6,23243,stud125,Student

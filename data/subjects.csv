@@ -1,0 +1,4 @@
+subject_id,subject_name,semester,teacher_id
+MCA101,Programming in C++,1,101
+MCA102,Database Management Systems,1,102
+MCA103,Computer Networks,1,101
