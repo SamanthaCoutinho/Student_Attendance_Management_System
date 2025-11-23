@@ -1,0 +1,5 @@
+teacherID,assignedSubjects,department
+T101,IMC501|IMC503,Economics
+T102,IMC502|IMC505,Computer Science
+T103,IMC504,Management
+T104,IMC506,Data Science
