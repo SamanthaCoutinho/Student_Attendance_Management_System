@@ -1,7 +1,0 @@
-userID,username,password,role,linkedID
-101,teacher_mca101,teach101,Teacher,MCA101
-102,teacher_mca102,teach102,Teacher,MCA102
-23241,anita,anita@123,Student,23241
-23255,meera,meera@123,Student,23255
-23261,rohan,rohan@123,Student,23261
-23270,raj,raj@123,Student,23270
