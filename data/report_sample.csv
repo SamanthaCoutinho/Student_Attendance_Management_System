@@ -1,0 +1,4 @@
+studentID,studentName,subjectID,subjectName,totalClasses,attendedClasses,percentage
+23241,Anita Rao,MCA101,Data Structures,3,2,66.67
+23255,Meera Nayak,MCA101,Data Structures,3,2,66.67
+23261,Rohan Shah,MCA101,Data Structures,3,3,100
