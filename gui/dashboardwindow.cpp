@@ -1,6 +1,8 @@
 #include "dashboardwindow.h"
 #include "ui_dashboardwindow.h"
 #include "loginwindow.h"
+#include "attendancewindow.h"
+#include "studentwindow.h"
 #include <QMessageBox>
 
 DashboardWindow::DashboardWindow(QWidget *parent)
@@ -22,15 +24,14 @@ void DashboardWindow::on_logoutButton_clicked()
     this->close();
 }
 
-
 void DashboardWindow::on_attendanceButton_clicked()
 {
-    QMessageBox::information(this, "Manage Attendance", "Attendance screen coming soon.");
+    AttendanceWindow *aw = new AttendanceWindow();
+    aw->show();
 }
-
 
 void DashboardWindow::on_studentsButton_clicked()
 {
-    QMessageBox::information(this, "Manage Students", "Student management screen coming soon.");
+    StudentWindow *sw = new StudentWindow();
+    sw->show();
 }
-

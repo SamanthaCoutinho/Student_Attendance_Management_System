@@ -38,8 +38,8 @@
    <widget class="QPushButton" name="studentsButton">
     <property name="geometry">
      <rect>
-      <x>330</x>
-      <y>140</y>
+      <x>470</x>
+      <y>130</y>
       <width>161</width>
       <height>29</height>
      </rect>
@@ -51,8 +51,8 @@
    <widget class="QPushButton" name="attendanceButton">
     <property name="geometry">
      <rect>
-      <x>330</x>
-      <y>180</y>
+      <x>470</x>
+      <y>190</y>
       <width>161</width>
       <height>29</height>
      </rect>
@@ -64,8 +64,8 @@
    <widget class="QPushButton" name="logoutButton">
     <property name="geometry">
      <rect>
-      <x>360</x>
-      <y>220</y>
+      <x>500</x>
+      <y>270</y>
       <width>93</width>
       <height>29</height>
      </rect>
@@ -81,7 +81,7 @@
      <x>0</x>
      <y>0</y>
      <width>1183</width>
-     <height>26</height>
+     <height>25</height>
     </rect>
    </property>
   </widget>
